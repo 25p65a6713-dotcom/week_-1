@@ -31,25 +31,16 @@
     button:hover { background: #1d4ed8; }
   </style>
 </head>
-<body>
-  <h1>Registration Form</h1>
-  <form action="success.html" method="get">
-    <div class="row">
+<body style="font-family:Arial, Helvetica, sans-serif; margin:24px; background-color:#f2f2f2;">
+  <h1 style="text-align:center; color:#2563eb;">Registration Form</h1>
+<form action="success.html" method="get" style="max-width:520px; padding:16px; border:1px solid #ddd; border-radius:8px; margin:0 auto; background:white; box-shadow:0 0 10px lightgray;">    <div class="row">
       <label for="name">Name</label>
       <input id="name" name="name" type="text" placeholder="Enter your name" required />
     </div>
-    <div class="row">
-      <label for="mobile">Mobile Number</label>
-      <input
-        id="mobile"
-        name="mobile"
-        type="tel"
-        inputmode="tel"
-        placeholder="Enter mobile number"
-        pattern="[0-9]{10}"
-        title="Enter a 10-digit mobile number"
-        required
-      />
+<div style="margin-bottom:12px;">
+<label style="display:block; margin-bottom:6px; font-weight:bold;">
+ <input id="name" name="name" type="text" placeholder="Enter your name" required
+style="width:100%; padding:10px; border:1px solid #ccc; border-radius:6px; box-sizing:border-box;">
     </div>
     <div class="row">
       <label>Gender</label>
